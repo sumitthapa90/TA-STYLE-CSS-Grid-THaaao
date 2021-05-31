@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #3a4a4f;
+}
+.container {
+  max-width: 1300px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+}
+
+.boxes {
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  p {
+    margin-bottom: 1rem;
+    text-align: start;
+  }
+
+  .anchor-tag a {
+    text-decoration: none;
+    display: inline-block;
+    color: red;
+    width: 350px;
+    text-align: start;
+  }
+}
+.boxes {
+  border-top: 0.2rem solid #0095be;
+  border-radius: 5px;
+}
+.image {
+  text-align: center;
+  display: block;
+  img {
+    display: inline-block;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+}
+
+.image2 {
+  text-align: center;
+  display: block;
+  img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+    padding: 1rem;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-sb {
+  justify-content: space-between;
+}
+.flex-sa {
+  justify-content: space-around;
+}
+.text-center {
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  color: white;
+  padding: 2rem 0;
+}
+ul {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-top: 0.2rem solid #0095be;
+  color: #0095be;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
