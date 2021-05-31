@@ -1,0 +1,10 @@
+.boxes {
+  padding: 1rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.container {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 1rem;
+}
