@@ -1,0 +1,503 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+header li {
+  margin-left: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header .active {
+  color: #ecaf4e;
+}
+
+.sec-1-part2 {
+  background-color: #f5e3d7;
+  padding: 2rem;
+}
+
+.sec-1-part2 span {
+  display: inline-block;
+  font-size: 0.7rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.sec-1-part2 p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #adabab;
+}
+
+.sec-1-part2 a {
+  text-decoration: none;
+  border: 2px solid;
+  color: black;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+.sec2 .sec2-part1 {
+  padding: 1rem;
+}
+
+.sec2 .skill-block {
+  padding: 1rem;
+  background-color: #ecaf4e;
+}
+
+.sec2 .about-image img {
+  height: 200px;
+}
+
+.sec2 span {
+  font-size: 0.7rem;
+  color: red;
+}
+
+.sec2 h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sec2 p {
+  margin-top: 1rem;
+  color: #9b8f84;
+}
+
+.sec3 {
+  text-align: center;
+}
+
+.sec3 i {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.sec3 p {
+  margin-bottom: 2rem;
+  color: #cccac7;
+}
+
+.sec3 h3 {
+  margin-bottom: 1rem;
+}
+
+.sec3 .sec3-part-1 {
+  background-color: #ecaf4e;
+  color: white;
+}
+
+.sec3 .sec3-part-2 {
+  background-color: #fc683e;
+  color: white;
+}
+
+.sec3 .sec3-part-3 {
+  background-color: black;
+  color: white;
+}
+
+.sec3 .sec3-part-4 {
+  background-color: white;
+  color: black;
+}
+
+.sec3 .sec3-part-4 i {
+  color: black;
+}
+
+.sec4 .sec4-part-2 {
+  background-color: #fc683e;
+  color: white;
+  padding: 2rem;
+}
+
+.sec4 h2 {
+  margin-bottom: 1rem;
+}
+
+.sec4 .flex-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sec4 i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.sec4 p {
+  margin-bottom: 2rem;
+  color: #cccac7;
+}
+
+.sec4 span {
+  margin-bottom: 1rem;
+  display: inline-block;
+  color: #cccac7;
+}
+
+.sec4 img {
+  height: 300px;
+}
+
+.sec5 .sec5-part-2 {
+  background-color: #ecaf4e;
+  color: white;
+  padding: 2rem;
+}
+
+.sec5 h2 {
+  margin-bottom: 1rem;
+}
+
+.sec5 .flex-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sec5 i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.sec5 p {
+  margin-bottom: 2rem;
+  color: #cccac7;
+}
+
+.sec5 span {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.sec5 img {
+  height: 300px;
+}
+
+.sec6 .sec6-part-1 {
+  background-color: #fc683e;
+  color: white;
+  padding: 1rem;
+}
+
+.sec6 .sec6-part-3 {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+.sec6 span {
+  margin-left: 1rem;
+}
+
+.sec6 .active span {
+  color: #ecaf4e;
+}
+
+.sec6 p {
+  font-size: 0.7rem;
+}
+
+.sec6 h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sec6 img {
+  height: 500px;
+}
+
+.sec6 span {
+  margin-bottom: 2rem;
+  display: inline-block;
+  font-size: 0.7rem;
+}
+
+.sec6 hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sec6 a {
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.iframe-box {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: #fc683e;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-sa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sec-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.sec2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr (1fr)[2];
+      grid-template-columns: 2fr repeat(2, 1fr);
+}
+
+.sec3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.sec4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.sec5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.sec6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr (1fr)[2];
+      grid-template-columns: 2fr repeat(2, 1fr);
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 16px;
+  color: #cccac7;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
