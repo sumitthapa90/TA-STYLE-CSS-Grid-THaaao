@@ -1,0 +1,24 @@
+.sec-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sec2 {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+}
+.sec3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.sec4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sec5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sec6{
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+}
